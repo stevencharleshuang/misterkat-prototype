@@ -25,7 +25,7 @@ a:link, a:visited {
 }
 
 a:active, a:hover {
-  color: #DB794C;
+  color: DarkOrange;
 }
 
 .wrapper {
@@ -50,10 +50,22 @@ header .subheader-left {
   flex: 1 20%;
 }
 
+header .logo {
+  width: 90%;
+  height: 90%;
+  background-color: DarkOrange;
+  border-radius: 50%;
+}
+
 header img {
-  width: 100%;
+  width: auto;
   height: auto;
   max-height: 300px;
+}
+
+header .logo:hover {
+  background-color: orange;
+  cursor: pointer;
 }
 
 header .subheader-right{
@@ -72,7 +84,7 @@ header nav .nav-main {
 
 header nav .nav-main .nav-item {
   /*display: inline-block;*/
-  border: 1px #DB794C solid;
+  border: 1px DarkOrange solid;
   min-width: 20%;
   padding: 1%;
   border-radius: 5px;
@@ -81,7 +93,7 @@ header nav .nav-main .nav-item {
 header nav .nav-main .nav-item:hover {
   cursor: pointer;
   color: white;
-  background-color: #DB794C;
+  background-color: DarkOrange;
 }
 
 .dropdown {
@@ -90,7 +102,7 @@ header nav .nav-main .nav-item:hover {
 .dropdown-content {
   display:none;
   color: black;
-  border: 1px #DB794C solid;
+  border: 1px DarkOrange solid;
   border-radius: 0 0 0 5px;
   z-index: 1;
 }
@@ -108,3 +120,29 @@ header nav .nav-main .nav-item:hover {
 .dropdown-content li:hover {
   color: orange;
 }
+
+main {
+  margin: 0 auto;
+/*  background-color: red;*/
+  width: 80%;
+  height: auto;
+  /*border: 1px red solid;*/
+}
+
+.hero {
+  /*position: absolute;*/
+  left: 33%;
+  font-weight: bold;
+  font-size: 5em;
+  /*visibility: visible;*/
+}
+
+.about-content {
+  left: 33%;
+}
+
+.recipes-content {
+  left: 33%;
+}
+
+
